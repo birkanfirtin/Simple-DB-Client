@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="myTextarea" layoutX="22.0" layoutY="25.0" prefHeight="110.0" prefWidth="525.0" />
+      <Button fx:id="buttonGo" layoutX="583.0" layoutY="67.0" mnemonicParsing="false" text="Go" />
+      <TableView fx:id="empTable" layoutX="22.0" layoutY="145.0" prefHeight="234.0" prefWidth="491.0">
+        <columns>
+          <TableColumn fx:id="firstname" prefWidth="117.39999008178711" text="FirstName" />
+          <TableColumn fx:id="lastname" prefWidth="122.20002746582031" text="LastName" />
+            <TableColumn fx:id="id" prefWidth="121.4000244140625" text="Employee ID" />
+            <TableColumn fx:id="salary" prefWidth="123.39996337890625" text="Salary" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
